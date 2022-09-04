@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f55b824827.js" crossorigin="anonymous"></script>
+    <title>LİNKEDİN</title>
+  <style>
+    .logo{
+      width: 27px;
+      height: 27px;
+      position: relative;
+      left:240px;
+      margin: 3px;
+    }
+    .ara{
+      border: none;
+      background-color: rgb(217, 241, 255);
+   
+    }
+    .search
+  {
+    width: 15%;
+    height: 30px;
+    background-color: rgb(217, 241, 255);
+    position: relative;
+      left:250px
+  
+  }
+  .icon1{
+    position: relative;
+    left:500px;
+    }
+    .icon2{
+      position: relative;
+      left:510px
+    }
+    .icon3{
+      position: relative;
+      left:520px
+    }
+    .icon4{
+      position: relative;
+      left:530px
+    }
+    .icon5{
+      position: relative;
+      left:540px;
+    }
+    .icon6{
+      position: relative;
+      left:600px
+    }
+    .icon7{
+      position: relative;
+      left: 610px;
+    }
+    .pp {
+      position: relative;
+      left:550px
+    }
+.nav-link{
+  font-size: 12px;}
+  .card-header{
+    height: 60px;
+    background-color:rgb(67, 191, 196);
+  }
+ .card-footer{
+  font-size: 11px;
+  text-align: justify
+ }
+ strong{
+  color: blue;
+ }
+    .fa-bookmark{
+     margin-right:100px;
+     color:grey;
+    }
+    
+    
+    .float{
+      float: right;
+      font-size: 13px;
+      
+    }
+    .fa-plus{
+      font-size: 25px;
+      position: relative;
+      left: 40px;
+      color: grey;
+    }
+    .search2{
+      width: 100%;
+      height: 40px;
+      border-color: rgb(250, 247, 247);
+      border-style: solid;
+      border-radius: 25px;
+      background-color: white;
+    }
+  .webdev{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+ 
+  .center {
+  font-size: 11px;
+  color: grey;
+ position: relative;
+ left: 45px;
+ bottom: 20px}
+
+ 
+   
+    
+  </style>
+  </head>
+  <body>
+    
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAY1BMVEUAd7f///8AdbYAcLQAarEugLvs9PnE2uoAc7UAbrMAern6/P01hb7P4O6cvdnK2+tal8ZAisGHsdTU4+5yoswAZ7CUutnz+fzg7PQAY66lw91OkMO50uZpoctnnMmAq9CvyuEVHHaEAAADiUlEQVRoge2b23qrIBBGETCAh3iImlSt8f2fcmvaJDUOwdLtcMPffr3RuoRBZhgYEnwpbfIkIiiKkrxJv7Hk9lcUjEkc+CzJWCEe+LhUiOzvN1Bl/IWPK44Nn8Wr+IYvndAnfjnjhXJDJ0SJCV+g2/0uWQQkZa7ohLCUNC7xDcmd9f3U+zlJ3NHJBEeaaWG9hdPpx5Eoqz9UxD5qTF/wgPOkOd18wqXtOPYLsKQPnjrlHNUIqjwHC7WYcwNvg1cJPL5qVvSZj9T/7BOgT/2P4xdpdADxcY7SfLDrZ2UYQQmlcOMnFQjNp4OOHhwRRr86avEpQu9zocWf6/3x9UWLDxA+Pf4Gj2D7+qTHI9he9Vr6AcH2rNTiewTb0y7W4a8YUQfXGT+mGJO+zDX4BsflSXjiuUQ4Dl/jcQeseGdadwLjDm8VzopV+z8xcwAyWk4+pwJ3FUxVnt1j7fhUSfzEEy+urUjFeO0UVpC7EJWKc66ks1Wml4UolUwxptT8a2U79iq59Spliiafx3bsMyHGtiok++1HS0krsoXG5PkMubraD/dJSfKwyZYe+5w2Uf2bD5dGL8vrWY/8Fw0Bl1De3o6qAXZXIlfbbcBG4AnpHa/Wq++pibOJWZiB8NsLJJtNwKCA4xB+XwUXAnFCKauATnveUW3tADu8dml619ZwxQpfQzZZqt0WKdvgI32A/NS29tvgdQHiUt2WD9AGr00KLHTZ4jst8Fu1pft3xJ/Dt+S98cHR3Pw98QdzjnxPfDAYB/+u+N6YJNgVfzbGH7viA+PO1R/w5/46dPnQnLRJgsC4b2ePbwhncpKqu1R3j3HL1hZ/CJ8uXdY6/2vMEFniD+HCqtr0qGno2+HjfGlUqssQJoahb4cfX20qNclp09C3w69zLwpufmkY+lb4cf1QBUdApl0xKzwQyMgODR9D4xlakID99Ge8gPAKzFD2O+DBqZSDqx6xw8ivoGcqaLX2XK79P3wMhtDwxJftgAenMhi/R+s93uM93uM93uM93uM93uM93uM93uM9/hUPHdl7nJkCD/TFYJUBnFkzpRfAdORjDwi8Ch8hpgmUVzeeu1PX1b/9SMYBBwqFZn9M5mt+az5yyWoS/RSp1eJqtJTSPpHW9OVevm0fm/7U+6vvjxGa7nRcGOO4LMhxUZTjkjDHBXGOywFdF0M6LgV1XQjruAw4cFwEPctRCfg/Z7xFdqvhyGMAAAAASUVORK5CYII=" alt="">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="ara" placeholder="Arama Yap">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <div style="text-align:center ;" class="icon1">
+          <i class="fa-solid fa-house-chimney"></i> 
+          <a class="nav-link active" href="#">Ana Sayfa</a></div>
+          <div style="text-align: center;" class="icon2">
+            <i class="fa-solid fa-user-group"></i>
+          <a class="nav-link" href="#">Ağım</a>
+        </div>
+        <div style="text-align: center;" class="icon3">
+          <i class="fa-solid fa-briefcase"></i>
+          <a class="nav-link" href="#">İş İlanları</a>
+        </div>
+        <div style="text-align: center;" class="icon4">
+          <i class="fa-solid fa-comment-dots"></i>
+          <a  class="nav-link ">Mesajlaşma</a>
+          </div>
+          <div style="text-align: center;" class="icon5">
+            <i class="fa-solid fa-bell"></i>
+            <a class="nav-link ">Bildirimler</a>
+            </div>  <div style="text-align: center;" class="pp">
+              <img class="rounded-circle" src="https://picsum.photos/20/20" alt="">
+              <a class="dropdown-item" href="#">Ben</a>
+              </div>
+              <div style="text-align: center;" class="icon6">
+                <i class="fa fa-th" aria-hidden="true"></i>
+                <a  class="nav-link ">iş</a>
+                </div>
+                <div style="text-align: center;" class="icon7">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
+                  <a  class="nav-link ">İş İlanı Yayınla</a>
+                  </div>
+              
+        </div>
+      </div>
+    </nav>
+
+  <div class="container mt-3  ">
+    <div class="row">
+      <div class="col-sm-3">
+    
+          <div  class="card text-center">
+            <div class="card-header">
+            
+            </div>
+            <div>
+            <img style="margin-top: -30px;" class="rounded-circle" src="https://picsum.photos/60/60" alt=""> </div>
+            <div class="card-body">
+              <h6 class="card-title">Mustafa Yiğit</h6>
+              <p>Front-end Developer</p>
+              <p class="card-footer">Profilinizi Kimler Görüntüledi: <strong>556</strong><br>
+              Yayınınız Görüntülendi: <strong>600</strong> </p>
+              <i class="fa-sharp fa-solid fa-bookmark"> </i> <span>Ögelerim</span>
+              
+            </div>
+          </div>
+          <div class="col-25">
+            <div class="card mt-3">
+              <div class="card-body">
+                <h6>Sayfalarım</h6>
+                <img style="margin-left:30px ;" src="https://picsum.photos/40/40" alt=""> 
+                <div class="float">
+              <h6>Yazılımsu</h6>
+              <p>Sayfa Bildirimleri: <strong>15</strong></p>
+              </div>
+              </div>
+              </div>
+              <div class="col-25">
+                <div class="card mt-3 ">
+                  <div class="card-body ">
+                    <h6>En Yeni</h6>
+                    <p># kodluyoruz</p>
+                    <p># front-end</p>
+                    <p> # html</p>
+                    <p># css</p>
+                    <p><a href="#">Gruplar</a></p>
+                    <p><a href="#">Etkinlikler</a></p> <br>
+                   <p> <a href="#">Takip Edilen Hashtaglar</a> <i class="fa-duotone fa-plus"></i></p> 
+                   <p># kodluyoruz</p>
+                    <p># front-end</p>
+                    <div class="card-footer">
+                      Daha Fazla Keşfet
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          
+          
+      
+      
+      </div>
+      <div class="col-sm-5">
+        <div class="card">
+          <div class="card-body">
+            <div class="search2">
+              <i style="padding:9px ;" class="fa-solid fa-pen-to-square"></i> Gönderi Başlat!! </div>
+              <div style="margin-top:10px; margin-left:20px">
+                <button type="button" class="btn btn-light"><i style="color:  #70B5F9;" class="fa-regular fa-image"></i> <span style="font-size: 11px;
+                  margin:2px" >Fotoğraf</span></button>
+                   <button type="button" class="btn btn-light"><i  style="color: #7FC15E" class="fa-brands fa-youtube"></i><span style="font-size: 11px;
+                    margin:5px" >Video</span></button>
+                     <button type="button" class="btn btn-light"><i style="color: #E7A33E;" class="fa-solid fa-calendar-week"></i> <span style="font-size: 11px;
+                      margin:2px" >Etkinlik</span></button>
+                       <button type="button" class="btn btn-light"><i style="color:#F5987E ;" class="fa-regular fa-newspaper"></i> <span style="font-size: 11px;
+                        margin:2px" >Yazı Yaz</span></button>
+                
+              </div>
+          </div>
+          </div>
+          <div class="col-25">
+            <div class="card mt-3">
+              <div class="card-body">
+                <img class="rounded-circle" src="https://picsum.photos/40/40" alt="">
+                
+                <a style="color: black; ;" href="#">Eric Patilson</a> <br>
+                <span class="center">  Web Developer
+                </span>
+                <span class="center">
+                1sa. <i class="fa-solid fa-earth-americas"></i></span>
+                <div>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, voluptatibus?</p>
+                  <img class="webdev" src="https://media-exp1.licdn.com/dms/image/C4E22AQGhJIYIjTxCXw/feedshare-shrink_800/0/1662119985582?e=1665014400&v=beta&t=_HGs5XofDM_PSnTvpkh-TA8JGELZMQQ0ezFFAboCi2s" alt="">
+                </div>
+                <div class="emoji mt-2">
+                  <i style="color:rgb(37, 159, 240) ; margin: 2px;" class="fa-regular fa-thumbs-up "></i>
+                  <i style="color:#79fa79 ; margin: 2px;" class="fa-solid fa-comment"></i>
+                  
+                  <i style="color:rgb(245, 72, 72) ; margin: 2px;" class="fa-regular fa-heart"></i> <span style="font-size:13px ;">620</span>
+
+
+                </div>
+              <div class="card-footer mt-3">
+                <button type="button" class="btn btn-light"><i class="fa-regular fa-thumbs-up"></i><span style="font-size:12px ; margin:2px">Beğen</span></button>
+                <button type="button" class="btn btn-light"><i class="fa-regular fa-comment"></i><span style="font-size: 12px; margin:2px">Yorum Yap</span></button>
+                <button type="button" class="btn btn-light"><i class="fa-solid fa-share"></i><span style="font-size: 12px; margin:2px" >Paylaş</span></button>
+                <button type="button" class="btn btn-light"><i class="fa-sharp fa-solid fa-paper-plane"></i><span style="font-size: 12px; margin:2px" >Gönder</span></button>
+              </div>
+                
+              </div>
+            </div>
+            </div>
+            
+            <div class="col-25">
+              <div class="card mt-3">
+                <div class="card-body">
+                  <img class="rounded-circle" src="https://picsum.photos/40/40.jpg" alt="">
+                  
+                  <a style="color: black; ;" href="#">Troy Style</a> <br>
+                  <span class="center">  Backend Developer
+                  </span>
+                  <span class="center">
+                  9sa. <i class="fa-solid fa-earth-americas"></i></span>
+                  <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, voluptatibus?</p>
+                    <img class="webdev" src="https://media-exp1.licdn.com/dms/image/C4D22AQHlOh6b0DX7ng/feedshare-shrink_2048_1536/0/1662087643108?e=1665014400&v=beta&t=EA--JkS8COh-ygi35dDSiLruwI9JqP1PWlVxyBE5hrs" alt="">
+                  </div>
+                  <div class="emoji mt-2">
+                    <i style="color:rgb(37, 159, 240) ; margin: 2px;" class="fa-regular fa-thumbs-up "></i>
+                    <i style="color:#79fa79 ; margin: 2px;" class="fa-solid fa-comment"></i>
+                    
+                    <i style="color:rgb(245, 72, 72) ; margin: 2px;" class="fa-regular fa-heart"></i> <span style="font-size:13px ;">220</span>
+  
+  
+                  </div>
+                <div class="card-footer mt-3">
+                  <button type="button" class="btn btn-light"><i class="fa-regular fa-thumbs-up"></i><span style="font-size:12px ; margin:2px">Beğen</span></button>
+                  <button type="button" class="btn btn-light"><i class="fa-regular fa-comment"></i><span style="font-size: 12px; margin:2px">Yorum Yap</span></button>
+                  <button type="button" class="btn btn-light"><i class="fa-solid fa-share"></i><span style="font-size: 12px; margin:2px" >Paylaş</span></button>
+                  <button type="button" class="btn btn-light"><i class="fa-sharp fa-solid fa-paper-plane"></i><span style="font-size: 12px; margin:2px" >Gönder</span></button>
+                </div>
+                  
+                </div>
+              </div>
+              </div>
+              
+            
+            
+              <div class="col-25">
+                <div class="card mt-3">
+                  <div class="card-body">
+                    <img class="rounded-circle" src="https://picsum.photos/seed/picsum/40/40" alt="">
+                    
+                    <a style="color: black; ;" href="#">Denis Daniel</a> <br>
+                    <span class="center"> full-stack-developer
+                    </span>
+                    <span class="center">
+                    2day. <i class="fa-solid fa-earth-americas"></i></span>
+                    <div>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, voluptatibus?</p>
+                      <img class="webdev" src="https://media-exp1.licdn.com/dms/image/C4D22AQHl80Sd_Og_8Q/feedshare-shrink_2048_1536/0/1662044067433?e=1665014400&v=beta&t=sx7TG0DKm8kK_4H88BUyYCGUHecyIi-HKt1yZLiKUTg" alt="">
+                    </div>
+                    <div class="emoji mt-2">
+                      <i style="color:rgb(37, 159, 240) ; margin: 2px;" class="fa-regular fa-thumbs-up "></i>
+                      <i style="color:#79fa79 ; margin: 2px;" class="fa-solid fa-comment"></i>
+                      
+                      <i style="color:rgb(245, 72, 72) ; margin: 2px;" class="fa-regular fa-heart"></i> <span style="font-size:13px ;">125</span>
+    
+    
+                    </div>
+                  <div class="card-footer mt-3">
+                    <button type="button" class="btn btn-light"><i class="fa-regular fa-thumbs-up"></i><span style="font-size:12px ; margin:2px">Beğen</span></button>
+                    <button type="button" class="btn btn-light"><i class="fa-regular fa-comment"></i><span style="font-size: 12px; margin:2px">Yorum Yap</span></button>
+                    <button type="button" class="btn btn-light"><i class="fa-solid fa-share"></i><span style="font-size: 12px; margin:2px" >Paylaş</span></button>
+                    <button type="button" class="btn btn-light"><i class="fa-sharp fa-solid fa-paper-plane"></i><span style="font-size: 12px; margin:2px" >Gönder</span></button>
+                  </div>
+                    
+                  </div>
+                </div>
+                </div>
+                
+              
+              
+                <div class="col-25">
+                  <div class="card mt-3">
+                    <div class="card-body">
+                      <img class="rounded-circle" src="https://picsum.photos/40/40"alt="">
+                      
+                      <a style="color: black; ;" href="#">Sarah Laura</a> <br>
+                      <span class="center">  software
+                      </span>
+                      <span class="center">
+                      5sa. <i class="fa-solid fa-earth-americas"></i></span>
+                      <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, voluptatibus?</p>
+                        <img class="webdev" src="https://media-exp1.licdn.com/dms/image/C4E22AQG-11op6HJbfw/feedshare-shrink_800/0/1662017440292?e=1665014400&v=beta&t=ZCxS45ifTZbWC7B-bp5-idHpFvwRvG3IC8LBkIl5rjg" alt="">
+                      </div>
+                      <div class="emoji mt-2">
+                        <i style="color:rgb(37, 159, 240) ; margin: 2px;" class="fa-regular fa-thumbs-up "></i>
+                        <i style="color:#79fa79 ; margin: 2px;" class="fa-solid fa-comment"></i>
+                        
+                        <i style="color:rgb(245, 72, 72) ; margin: 2px;" class="fa-regular fa-heart"></i> <span style="font-size:13px ;">900</span>
+      
+      
+                      </div>
+                    <div class="card-footer mt-3">
+                      <button type="button" class="btn btn-light"><i class="fa-regular fa-thumbs-up"></i><span style="font-size:12px ; margin:2px">Beğen</span></button>
+                      <button type="button" class="btn btn-light"><i class="fa-regular fa-comment"></i><span style="font-size: 12px; margin:2px">Yorum Yap</span></button>
+                      <button type="button" class="btn btn-light"><i class="fa-solid fa-share"></i><span style="font-size: 12px; margin:2px" >Paylaş</span></button>
+                      <button type="button" class="btn btn-light"><i class="fa-sharp fa-solid fa-paper-plane"></i><span style="font-size: 12px; margin:2px" >Gönder</span></button>
+                    </div>
+                      
+                  
+                    </div>
+                    
+                  </div>
+                  </div>
+                  
+                
+                
+                      
+          
+          
+       
+
+        </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="card-body">
+            <p>Akışınıza  Ekleyin <span style="color: grey; position:relative; left:180px"><i class="fa-solid fa-circle-exclamation"></i></span></p><br>
+            <p><img class="rounded-circle
+              " src="https://picsum.photos/id/13/20/20" alt=""><span style="margin:8px" >Codelife</span> 
+              <button style="border-radius:20px ; position: relative; left:160px"  type="button" class="btn btn-primary btn-sm">Takip Et</button></p>
+              <p><img class="rounded-circle
+                " src="https://picsum.photos/id/15/20/20" alt=""><span style="margin:8px" >Programmer</span> 
+                <button style="border-radius:20px ; position: relative; left:130px"  type="button" class="btn btn-primary btn-sm">Takip Et</button></p>
+                <p><img class="rounded-circle
+                  " src="https://picsum.photos/id/12/20/20" alt=""><span style="margin:8px" >JavaScript</span> 
+                  <button style="border-radius:20px ; position: relative; left:148px"  type="button" class="btn btn-primary btn-sm">Takip Et</button></p>
+          </div>
+
+          </div>
+
+          
+          <div class="col-25 mt-3">
+            <div class="card">
+              <div class="card-body">
+                <p>Bugün En Çok İzlenen Eğitimlerin <span style="color: grey; position:relative; left:60px"><i class="fa-solid fa-circle-exclamation"></i></span></p><br>
+              <ol >
+               <strong style="color: black;">
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+               </strong><span style="color: gray; font-size:11px">Lorem, ipsum dolor.</span>
+               <strong style="color: black;">
+                <li>Lorem, ipsum dolor.</li>
+               </strong> <span style="color: gray; font-size:11px">Lorem, ipsum dolor.</span>
+               <strong style="color: black;">
+                <li>Lorem ipsum dolor sit amet.</li>
+               </strong><span style="color: gray; font-size:11px">Lorem, ipsum dolor.</span>
+              </ol>
+              <a href="#"> Linkedin  Learning'de Daha Fazlasını  Göster</a>
+              </div>
+    
+                
+             
+            
+          
+        </div>
+        <footer style="margin-top: 10px;
+        padding: 10px; font-size: 13px;" >
+          <a style="color: grey; margin: 3px;" href="#">Hakkında</a>
+          <a style="color: grey; margin: 3px;" href="#">Erişilebilirlik</a>
+          <a  style="color: grey; margin: 3px;" href="#">Yardım Merkezi</a> <br>
+          <a   style="color: grey; margin: 3px;" href="#">Gizlilik ve Koşullar</a>
+          <a  style="color: grey; margin: 3px;" href="#">Reklam Tercihleri</a>
+          <a style="color: grey; margin: 3px;" href="#">Reklam</a>
+        
+        </footer>
+        <img style="width:30%; height: auto; object-fit: contain;" src="https://brand.linkedin.com/content/dam/brand/site/img/logo/logo-hero.png" alt="">LinkedIn Corporation © 2022
+      </div>
+
+      <div style="position: fixed;
+      right: 0px;
+      bottom: 0px;" class="btn-group dropup ">
+        <button style="width: 300px; " type="button" class="btn btn-default">
+          <img  class="rounded-circle" src="https://picsum.photos/30/30" alt="">
+          <span style="font-size:15px ; margin:6px;">Mesajlaşma</span>
+          <i style="margin-left: 110px;" class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          <i style="color: grey;" class="fa fa-ellipsis-h" aria-hidden="true"></i>
+        </button>
+        
+        <button  type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+        <span class="sr-only"></span>
+        </button>
+        
+      
+      </div>
+      
+    </div>
+  </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
